@@ -8,6 +8,9 @@ kubectl run nginx --image=nginx
 #bind the service
 kubectl expose deployment nginx --port 80
 
+#enable the minikube ingress controller
+minikube addons enable ingress
+
 #add the ingress
 kubectl apply -f ingress.yaml
 
