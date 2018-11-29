@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: helloworld
+  namespace: scrumteam-one
+  labels:
+    app: helloworld
+spec:
+  containers:
+  - name: helloworld
+    image: hello-world
+    env:
+      - name: CURRENT_VERSION
+        value: 0.0.9
