@@ -1,0 +1,7 @@
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: scumteam-one
+  labels:
+    name: scumteam-one
