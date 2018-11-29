@@ -2,14 +2,14 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: helloworld
+  name: simple_nginx
   namespace: scrumteam-one
   labels:
-    app: helloworld
+    app: simple_nginx
 spec:
   containers:
-  - name: helloworld
-    image: hello-world
+  - name: nginx
+    image: nginx
     env:
       - name: CURRENT_VERSION
         value: 0.0.9
