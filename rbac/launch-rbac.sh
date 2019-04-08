@@ -7,7 +7,7 @@ kubectl create ns test
 
 #apply the yaml
 kubectl apply -f ./manifests/test-role.yaml #the role
-kubectl apply -f ./manifests/test-rolebinding.yaml #role binding
+kubectl apply -f ./manifests/user-rolebinding.yaml #role binding
 
 #go to MAGIC_USER context
 kubectl config use-context $MAGIC_USER
