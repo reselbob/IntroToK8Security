@@ -1,3 +1,5 @@
+#This script will create the csr, key and cert for MAGIC_USER and
+# also create a Kubertest context for MAGIC_USER
 #---As Requester---
 cd ~/.minikube/
 #declare the user
