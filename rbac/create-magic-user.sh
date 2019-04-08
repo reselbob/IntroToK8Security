@@ -1,6 +1,5 @@
 #---As Requester---
-mkdir -p ~/.certs/kubernetes/minikube
-cd ~/.certs/kubernetes/minikube/
+cd ~/.minikube/
 #declare the user
 export MAGIC_USER=dicktracy
 #generate an ssl key
