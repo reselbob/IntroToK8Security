@@ -1,0 +1,11 @@
+
+---
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1beta1
+metadata:
+  namespace: dev
+  name: simple-pod-developer
+rules:
+  - apiGroups: [""] #evil wild card character, ["*"]
+    resources: ["pods"] #evil wild card character, ["*"]
+    verbs: ["create","get", "list"] #evil wild card character, ["*"]
